@@ -33,7 +33,7 @@ This is a simple web application for searching movies using the OMDb API.
 
 2. Navigate to the project directory:
 
-### cd invent-analytics-study-case
+### cd Case-Study
 
 
 3. Install dependencies using Yarn:
