@@ -1,0 +1,74 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.movie-list-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.movie-table th,
+.movie-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.movie-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.movie-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.pagination button {
+  background-color: rgb(64, 206, 64);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.pagination button:hover {
+  background-color: green;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.search-filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.fa-chevron-right {
+  color: red;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.fa-chevron-right:hover {
+  color: #4caf50;
+}
+
+@media (max-width: 1100px) {
+  .search-filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
